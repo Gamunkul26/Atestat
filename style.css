@@ -1,4 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     height: 90px;
-    weight: 90px;
+    width: 90px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 20px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item:not(:last-child) {
+    margin-right: 20px;
 }
