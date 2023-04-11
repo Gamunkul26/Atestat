@@ -26,3 +26,19 @@
 .item:not(:last-child) {
     margin-right: 20px;
 }
+
+@media screen and (max-width: 560px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .list {
+        flex-direction: column;
+        padding: 0;
+    }
+    .item{
+        margin: 0 !important;
+    }
+}
