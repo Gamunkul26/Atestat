@@ -4,7 +4,7 @@
 }
 
 .logo {
-    height: 90px;
+    height: 75px;
     width: 90px;
 }
 
@@ -41,4 +41,7 @@
     .item{
         margin: 0 !important;
     }
+}
+.center{
+    text-align: center;
 }
